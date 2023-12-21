@@ -148,7 +148,7 @@ router.post('/getlocation', async (req, res) => {
 
     }
 })
-router.post('/foodData', async (req, res) => {
+router.post('/jewelData', async (req, res) => {
     try {
         res.send([global.foodData, global.foodCategory])
     } catch (error) {
