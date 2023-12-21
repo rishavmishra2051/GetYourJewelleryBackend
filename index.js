@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('Backend of Get Your Food')
+  res.send('Backend of Get Your Jewellery')
 })
 
 app.use('/api/auth', require('./Routes/Auth'));
