@@ -14,7 +14,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000", "https://6583f9ef7e948fc5bfd02f52--candid-otter-4bf405.netlify.app/");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
@@ -33,6 +33,4 @@ app.listen(port, () => {
   console.log(`Example app listening on http://localhost:${port}`)
 })
 
-/*
-{"name":"Rishav Mishra","Password":"12345","email":"rishavmishrarm2001@gmail.com","location":"Noida"}
-*/
+
