@@ -14,7 +14,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://6583f9ef7e948fc5bfd02f52--candid-otter-4bf405.netlify.app");
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000", "https://6583f9ef7e948fc5bfd02f52--candid-otter-4bf405.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
